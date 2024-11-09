@@ -75,6 +75,20 @@
             gap: 10px;
         }
     }
+/* Larger screens */
+@media (min-width: 768px) {
+    img.responsive {
+        width: 80%; /* Limit width to 80% of container on larger screens */
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    img.responsive {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+	
 </style>
 </head>
 <body>
